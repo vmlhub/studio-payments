@@ -28,3 +28,18 @@ OAuth app. Complete any ownership or verification steps Google requests separate
 - `.nojekyll`: serve the static files directly.
 
 Update the policy if the service's data handling or email providers change.
+
+## Google branding review
+
+The homepage describes the AI studios, the payment application's purpose, the
+Gmail sending and sender-verification scopes, and prohibited studio uses. These
+disclosures describe the integration and usage rules; they are not a claim that
+Google has approved the application or that content moderation is implemented.
+
+Verify ownership separately in Google Search Console using the Google account
+that owns or edits the OAuth project. Add a URL-prefix property for
+`https://vmlhub.github.io/studio-payments/` and publish the exact HTML verification
+tag provided by Google in the homepage's `head`. Keep the tag after verification.
+This repository does not control DNS for `github.io`; do not use a DNS Domain
+property for GitHub's domain. Complete verification in Search Console, then allow
+the 24 hours requested by the branding issue panel before retrying brand review.
