@@ -37,9 +37,12 @@ disclosures describe the integration and usage rules; they are not a claim that
 Google has approved the application or that content moderation is implemented.
 
 Verify ownership separately in Google Search Console using the Google account
-that owns or edits the OAuth project. Add a URL-prefix property for
-`https://vmlhub.github.io/studio-payments/` and publish the exact HTML verification
-tag provided by Google in the homepage's `head`. Keep the tag after verification.
+that owns or edits the OAuth project. The URL-prefix property is
+`https://vmlhub.github.io/studio-payments/`. The downloaded verification file
+`googleb2a364bdd0d38e5f.html` is published unchanged in the site root; choose
+**HTML file** and click **Verify** in Search Console. Keep the verification file
+after verification succeeds. If adding another owner through the HTML tag method,
+publish their exact tag in the homepage's `head` and retain it after verification.
 This repository does not control DNS for `github.io`; do not use a DNS Domain
 property for GitHub's domain. Complete verification in Search Console, then allow
 the 24 hours requested by the branding issue panel before retrying brand review.
